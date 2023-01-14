@@ -1,0 +1,43 @@
+/* Navigation Bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+  }
+
+.navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+    transition-duration: 0.4s;
+}
+  
+
+  .navbar a:hover {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+  }
+/* End Navigation Bar */
+
+.navbar a {
+  overflow: hidden; /* Hide overflow */
+  background-color: #333; /* Dark background color */
+}
+
+.navbar a.noToNukes {
+  overflow: hidden; /* Hide overflow */
+  background-color: rgb(0, 0, 0); /* Dark background color */
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: rgb(111, 0, 0); /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar a.noToNukes:hover {
+  background-color: rgb(42, 42, 42);
+}

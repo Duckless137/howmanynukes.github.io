@@ -1,0 +1,75 @@
+  /* Increase the font size of the <h1> element */
+  .header {
+    padding: 60px; /* some padding */
+    text-align: center; /* center the text */
+    background: #1abc9c; /* green background */
+    color: white; /* white text color */
+    transform: translateZ(1px);
+  }
+  .header h1.about {
+    font-size: 69px;
+  }
+  .header p.about {
+    font-size: 20px;
+  }
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.adBar {
+  flex: 20%;
+  height: 1700px;
+  background-color: rgb(203, 203, 203);
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+}
+
+.mainBar {
+  flex: 80%;
+  background-color: rgb(255, 255, 255);
+}
+
+/*Donate Button*/
+.donateButton {
+  padding: 5px 5px;
+  font-size: 24px;
+  border: none;
+  border-radius: 4px;
+  background: rgb(0, 131, 0);
+  box-shadow: 0 9px #999;
+  transition: all 0.2s;
+}
+
+.donateButton:hover {
+  background: rgb(0, 79, 0);
+}
+
+.donateButton:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px #999;
+}
+
+.aboutDiv {
+  transform: translateY(10px) translateX(320px);
+  background-color: rgb(0, 229, 229);
+  width: 1120px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.donatePls {
+  transform: translateY(20px) translateX(350px);
+  position: relative;
+  background-image: url(https://www.marxist.com/images/stories/economy/Money_-_Pictures_of_Money--Flickr_flickr.com--photos--pictures-of-money--17123251389.jpg);
+  width: 500px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.ads {
+  display: block;
+}
